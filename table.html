@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2ITC - Hans Simon Ramos - Weekly Schedule</title>
+    <style type=text/css>
+        /* Native elements */
+        td {
+            text-align: center;
+            height: 1px;
+        }
+
+        table {
+            width: 100%;
+            height: 100%;
+        }
+        
+        h1, h5 {
+            margin: auto;
+            text-align: center;
+        }
+
+        body {
+            background-color: #616a85;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+        }
+
+        p { 
+            color: black;
+            position: sticky;
+            top: 40%
+        }
+        
+        div {
+            border-radius: 5px;
+            min-height: fit-content;
+            height: 100%;
+            width: 100%;
+            box-shadow: 0px 0px 5px black;
+        }
+
+        /* Classes */
+        .thy3 { background-color: #a1fcde; }
+        .ics2605 { background-color: #82ddf2; }
+        .ics2608 { background-color: #ffdec9; }
+        .ics2607 { background-color: #d6ff99; }
+        .ics26014 { background-color: #c6f7ff; }
+        .lunch { background-color: #efaa8d; }
+        .wash_dish { background-color: crimson; }
+        .study_time { background-color: #71edc1; }
+        .free_time { background-color: #e2bcff; }
+        .white_text { color: white;}
+
+        .note_text, .note_header {
+            margin: 0;
+            padding: 1%;
+        }
+
+        .split_box {
+            margin: auto;
+            width: 78%;
+        }
+        
+        .top_half_box {
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        .bottom_half_box {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+        }
+        
+        .top_half_box, .bottom_half_box {
+            margin: auto;
+            box-shadow: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="split_box">
+        <div class="top_half_box" style="background-color: #db162f">
+            <h1>My Schedule</h1>
+            <h5>Hans Simon R. Ramos - 2ITC</h5>
+        </div>
+        <div class="bottom_half_box" style="background-color: #47117e; margin: auto;">
+            <table cellspacing="3">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Sunday</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                        <th>Saturday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6:00 AM</td>
+                        <td colspan="7">
+                            <div style="background-color: #fceb80; ">
+                                <p>Wake up and eat breakfast</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7:00 AM</td>
+                        <td rowspan="5">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="2">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                        <td rowspan="4">
+                            <div style="background-color: red;">
+                                <p class="white_text">PATH-FIT</p>
+                            </div>
+                        </td>
+                        <td rowspan="3" colspan="3">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8:00 AM</td>
+                        <td rowspan="3">
+                            <div class="ics2608">
+                                <p>ICS2608</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9:00 AM</td>
+                        <td rowspan="2">
+                            <div class="ics2608">
+                                <p>ICS2608</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:00 AM</td>
+                        <td>
+                            <div class="lunch">
+                                <p>
+                                    Eat lunch
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="2">
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="lunch">
+                                <p>
+                                    Eat lunch
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>11:00 AM</td>
+                        <td colspan="2">
+                            <div class="lunch">
+                                <p>
+                                    Eat lunch
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="ics2605">
+                                <p>ICS2605L</p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="ics2605">
+                                <p>ICS2605</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>12:00 PM</td>
+                        <td>
+                            <div class="lunch">
+                                <p>
+                                    Eat lunch
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="ics26014">
+                                <p>ICS26014L</p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="ics26014">
+                                <p>ICS26014</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="lunch">
+                                <p>
+                                    Eat lunch
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="lunch">
+                                <p>
+                                    Eat lunch
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>1:00 PM</td>
+                        <td>
+                            <div class="wash_dish">
+                                <p class="white_text">
+                                    Wash dishes
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="ics2607">
+                                <p>ICS2607</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="wash_dish">
+                                <p class="white_text">
+                                    Wash dishes
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2:00 PM</td>
+                        <td rowspan="3">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="wash_dish">
+                                <p class="white_text">
+                                    Wash dishes
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="2">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="wash_dish">
+                                <p class="white_text">
+                                    Wash dishes
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3:00 PM</td>
+                        <td colspan="2">
+                            <div class="wash_dish">
+                                <p class="white_text">
+                                    Wash dishes
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="ics2607">
+                                <p>ICS2607L</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4:00 PM</td>
+                        <td>
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="2">
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="wash_dish">
+                                <p class="white_text">
+                                    Wash dishes
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="2" colspan="2">
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5:00 PM</td>
+                        <td rowspan="3">
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="thy3">
+                                <p>THY3</p>
+                            </div>
+                        </td>
+                        <td rowspan="3">
+                            <div class="thy3">
+                                <p>THY3</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>6:00 PM</td>
+                        <td rowspan="2">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                        <td rowspan="2">
+                            <div class="study_time">
+                                <p>
+                                    Do tasks/Study
+                                </p>
+                            </div>
+                        </td>
+                        <td rowspan="2" colspan="2">
+                            <div class="free_time">
+                                <p>Free time</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>7:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 PM</td>
+                        <td colspan="7">
+                            <div style="background-color: #df6033">
+                                <p class="white_text">Eat dinner</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>9:00 PM</td>
+                        <td colspan="7">
+                            <div style="background-color: #b205c1;">
+                                <p class="white_text">Boil water for tomorrow's coffee. Clean cat litter box</p>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>10:00 PM</td>
+                        <td colspan="7">
+                            <div style="background-color: #c9c1ff;">
+                                <p>Sleep</p>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="split_box" style="margin-top: 1%;">
+        <div class="top_half_box" style="background-color: yellow;">
+            <p class="note_header">NOTE</p>
+        </div>
+        <div class="bottom_half_box" style="background-color: white;">
+            <p class="note_text">Free Time consists of any of the following activities: Reading manga (Japanese Comic Books), Watching YouTube
+                videos, Playing video games, Working on personal coding projects</p>
+        </div>
+    </div>
+</body>
+
+</html>
